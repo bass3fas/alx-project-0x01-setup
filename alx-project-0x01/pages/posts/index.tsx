@@ -1,13 +1,10 @@
-import PostCard from '@/components/common/PostCard';
-import Button from '@/components/common/Button';    
+import Header from '@/components/layout/Header';   
 
 const Posts = () => {
   return (
     <div>
-      <PostCard />
-      <PostCard />
-      <PostCard />
-        <Button />
+      <Header />
+      <h1>Posts</h1>
     </div>
   );
 }
